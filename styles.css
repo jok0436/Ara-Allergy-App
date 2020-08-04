@@ -91,7 +91,7 @@
     max-width: 400px;
 }
 .restaurant-image[data-v-62e98314] {
-    max-height: 300px;
+    max-height: 400px;
 }
 .address-item[data-v-62e98314] {
   white-space: nowrap;
@@ -103,6 +103,7 @@
 }
 #allergy-container img[data-v-62e98314] {
   width: 20px;
+  height: 20px;
 }
 #restaurant-header[data-v-62e98314] {
   display: flex;
@@ -114,6 +115,9 @@
   display: flex;
   justify-content: flex-end;
   padding: 0 4px 0 0;
+}
+.horizontal-container p[data-v-62e98314] {
+  margin: 0 2px;
 }
 #caution[data-v-62e98314] {
   padding: 0 0 0 4px ;
@@ -131,7 +135,7 @@
     right: 0;
     /* margin: 0.2em; */
     width: 15%;
-    padding: 1px;
+    padding: 2px;
 }
 #restaurant-option p[data-v-62e98314] {
   margin: 0;
@@ -150,14 +154,24 @@
 }
 
 #profile-page[data-v-4b099398] {
-  padding: 0em;
+  padding: 0.5em;
 }
 #update[data-v-4b099398] {
   margin-bottom: 5px;
 }
+.box11[data-v-4b099398] {
+    padding: 0.5em 1em;
+    margin: 0 0 0.2em 0;
+    border: dashed 2px #cc0033;
+}
+.box11 p[data-v-4b099398] {
+    margin: 0;
+    padding: 0;
+}
 
 .restaurant-image[data-v-60d2925a] {
-    max-height: 400px;
+  width:auto;
+  height: 400px;
 }
 .detail-page[data-v-60d2925a] {
     padding: 1em;
@@ -173,6 +187,7 @@
 }
 #allergy-container img[data-v-60d2925a] {
   width: 24px;
+  height: 24px;
   margin: 0 6px 0 0;
 }
 .invisible[data-v-60d2925a] {
@@ -197,12 +212,23 @@
   padding: 0 0 0 4px ;
 }
 #image-box[data-v-60d2925a] {
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 #train-level[data-v-60d2925a] {
   position: absolute;
     top: 0;
     right: 0;
     width: 15%;
-    padding: 1px;
+    padding: 2px;
+}
+@media screen and (max-width: 600px) {
+.restaurant-image[data-v-60d2925a] {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+#image-box[data-v-60d2925a] {
+    display: block;
+}
 }
