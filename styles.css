@@ -90,13 +90,35 @@
     width: 100%;
     max-width: 400px;
 }
+#image-box[data-v-62e98314] {
+    text-align: center;
+    overflow: hidden;
+    width: auto;
+    height: 300px;
+    position: relative;
+}
 .restaurant-image[data-v-62e98314] {
-    max-height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
+}
+#train-level[data-v-62e98314] {
+  position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    padding: 2px;
 }
 .address-item[data-v-62e98314] {
   white-space: nowrap;
 }
 #allergy-container[data-v-62e98314] {
+  width: 100%;
   justify-content: flex-start;
   margin: 0 8px 0 4px;
   align-items: flex-start;
@@ -126,23 +148,24 @@
 .invisible[data-v-62e98314] {
   display: none;
 }
-#image-box[data-v-62e98314] {
-    position: relative;
-}
-#train-level[data-v-62e98314] {
-  position: absolute;
-    top: 0;
-    right: 0;
-    /* margin: 0.2em; */
-    width: 15%;
-    padding: 2px;
-}
 #restaurant-option p[data-v-62e98314] {
   margin: 0;
   margin-block-start: 0em;
   margin-block-end: 0em;
   text-align: right;
 }
+#description[data-v-62e98314] {
+  margin:0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.no-wrap-text[data-v-62e98314] {
+  white-space: nowrap;
+}
+
 
 .display-flex[data-v-041afee2] {
   display: flex;  
@@ -169,9 +192,22 @@
     padding: 0;
 }
 
+#image-box[data-v-60d2925a] {
+    text-align: center;
+    overflow: hidden;
+    width: auto;
+    height: 400px;
+    position: relative;
+}
 .restaurant-image[data-v-60d2925a] {
-  width:auto;
-  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 100%;
 }
 .detail-page[data-v-60d2925a] {
     padding: 1em;
@@ -211,22 +247,33 @@
 #caution[data-v-60d2925a] {
   padding: 0 0 0 4px ;
 }
-#image-box[data-v-60d2925a] {
-  display: inline-block;
-  position: relative;
-}
 #train-level[data-v-60d2925a] {
-  position: absolute;
-    top: 0;
-    right: 0;
-    width: 15%;
-    padding: 2px;
+  width: 40px;
+}
+#description[data-v-60d2925a] {
+  margin:0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 100;
+  -webkit-box-orient: vertical;
 }
 @media screen and (max-width: 600px) {
+#image-box[data-v-60d2925a] {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
 .restaurant-image[data-v-60d2925a] {
+    position: relative;
     width: 100%;
     height: auto;
     max-height: 400px;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
 }
 #image-box[data-v-60d2925a] {
     display: block;
