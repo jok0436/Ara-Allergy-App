@@ -86,16 +86,16 @@
 }
 
 .demo-card-header-pic[data-v-62e98314] {
-    float: center;
-    width: 100%;
-    max-width: 400px;
+  float: center;
+  width: 100%;
+  max-width: 400px;
 }
 #image-box[data-v-62e98314] {
-    text-align: center;
-    overflow: hidden;
-    width: auto;
-    height: 300px;
-    position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: auto;
+  height: 300px;
+  position: relative;
 }
 .restaurant-image[data-v-62e98314] {
   position: absolute;
@@ -109,10 +109,10 @@
 }
 #train-level[data-v-62e98314] {
   position: absolute;
-    top: 0;
-    right: 0;
-    width: 15%;
-    padding: 2px;
+  top: 0;
+  right: 0;
+  width: 15%;
+  padding: 2px;
 }
 .address-item[data-v-62e98314] {
   white-space: nowrap;
@@ -120,7 +120,7 @@
 #allergy-container[data-v-62e98314] {
   width: 100%;
   justify-content: flex-start;
-  margin: 0 8px 0 4px;
+  margin: 0px 0px 0 0px;
   align-items: flex-start;
 }
 #allergy-container img[data-v-62e98314] {
@@ -130,9 +130,9 @@
 #restaurant-header[data-v-62e98314] {
   display: flex;
   justify-content: space-between;
-  padding: 4px 0 0 4px ;
+  padding: 4px 0 0 4px;
 }
-.horizontal-container[data-v-62e98314]{
+.horizontal-container[data-v-62e98314] {
   align-items: center;
   display: flex;
   justify-content: flex-end;
@@ -142,7 +142,7 @@
   margin: 0 2px;
 }
 #caution[data-v-62e98314] {
-  padding: 0 0 0 4px ;
+  padding: 0 0 0 4px;
   font-size: 1.5em;
 }
 .invisible[data-v-62e98314] {
@@ -155,7 +155,7 @@
   text-align: right;
 }
 #description[data-v-62e98314] {
-  margin:0;
+  margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -166,14 +166,13 @@
   white-space: nowrap;
 }
 
-
 .display-flex[data-v-041afee2] {
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.restaurants-container[data-v-041afee2]{
-    padding: 1em;
+.restaurants-container[data-v-041afee2] {
+  padding: 1em;
 }
 
 #profile-page[data-v-4b099398] {
